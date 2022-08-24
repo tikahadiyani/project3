@@ -1,9 +1,17 @@
 {
     "postgresql":{
-        "host":"localhost",
-        "db":"digitalskola",
+        "host":"172.26.240.1",
+        "db":"digital_skola",
         "user":"postgres",
-        "pwd":"postgres",
+        "pwd":"bigbang",
+        "port":5432
+    },
+    
+    "warehouse":{
+        "host":"172.26.240.1",
+        "db":"dwh_digital_skola",
+        "user":"postgres",
+        "pwd":"bigbang",
         "port":5432
     }
 }
